@@ -416,7 +416,7 @@
             return $el;
         },
         _getStars: function (type) {
-            var self = this, stars = '<span class="' + type + '-stars">', i;
+            var self = this, stars = '<span class="rating__' + type + '">', i;
             for (i = 1; i <= self.stars; i++) {
                 stars += '<span class="star">' + self[type + 'Star'] + '</span>';
             }
